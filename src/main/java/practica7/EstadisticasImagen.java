@@ -40,8 +40,6 @@ public class EstadisticasImagen {
             Dimension dimVista) {
 
         // crea la subimagen correspondiente al viewport
-        System.out.println(esqSupIzda.toString());
-        System.out.println(dimVista.toString());
         Mat subimagen = new Mat(imagenColor, new Rect(esqSupIzda.x, esqSupIzda.y,
                 dimVista.width, dimVista.height));
         
